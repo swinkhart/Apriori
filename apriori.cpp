@@ -259,8 +259,6 @@ std::map<std::vector<int>, int> aprioriAlg(const std::map<std::vector<int>, int>
     lk = l1;
     result = l1;
 
-    // generate next itemset and their frequency based off l1 and master DB vector
-
     while (ck.size() != 0 || lk.size() != 0)
     {
         // generate next itemset and their frequency based off the previous itemset, the first canidate itemset and compare to master DB vector to find frequency
