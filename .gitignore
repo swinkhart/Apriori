@@ -1,0 +1,7 @@
+.env/
+.vscode/
+test.py
+testNumbers.txt
+testStrings.csv
+largeTransactionSet.csv
+__pycache__/
